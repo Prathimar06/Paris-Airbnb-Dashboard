@@ -48,7 +48,7 @@ Focuses on the hosts themselves to identify top performers and analyze the relat
 ### **Key DAX Measures Created:**
 * **Estimated Revenue:** `price * minimum_nights * number_of_reviews_ltm`
 * **Host Type:** `IF('Paris_Cleaned_final_DS'[HostTotalListings] > 1, "Professional Host", "Single Listing Host")`
-* **Occupancy Rate (Proxy):** `1 - (AVERAGE(Table[AvailabilityDays]) / 365)`
+
 
 ---
 ## 🚀 How to Use
